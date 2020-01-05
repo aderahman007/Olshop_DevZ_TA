@@ -1,0 +1,5 @@
+Cara Install Aplikasi
+1. Ekstrak dan copy folder yang anda ekstrak ke folder xampp/htdocs
+2. Buat database baru dengan nama db_devz
+3. import database di folder DATABASE pada folder yang anda ekstrak tadi 
+4. done 
