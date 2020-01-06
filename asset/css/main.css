@@ -136,8 +136,13 @@ a#scrollUp i{
 	background:#CE3C2D;
 }
 
+.header-middle{
+  background: none repeat scroll 0 0 #90C9DC;
+}
+
 .header-middle .container .row {
-  border-bottom: 1px solid #f5f5f5;
+  
+  border-bottom: 1px solid #FE980F;
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 20px;
@@ -198,11 +203,11 @@ a#scrollUp i{
 
 
 .shop-menu ul li a {
-  background: #FFFFFF;
-  color: #696763;
+  /* background: #FFFFFF; */
+  color: #fe980f;
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: bold;
   padding:0;
   padding-right: 0;
   margin-top: 10px;
@@ -215,14 +220,16 @@ a#scrollUp i{
 
 
 .shop-menu ul li a:hover {
-	color:#fe980f;
-	background:#fff;
+	color:#e4510d;
+	/* background:#fff; */
 }
 
 
 .header-bottom {
+  background: #90C9DC;
   padding-bottom: 30px;
   padding-top: 30px;
+  margin-bottom: 10px;
 }
 
 .navbar-collapse.collapse{
@@ -239,21 +246,23 @@ a#scrollUp i{
 }
 
 .mainmenu ul li a {
-	color: #696763;
+	color: #fe980f;
 	font-family: 'Roboto', sans-serif;
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: 300;
 	padding: 0;
-	padding-bottom: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
 	background:none;
-	color:#fdb45e;
+	color:#fe980f;
 }
 
 .search_box input {
   background: #F0F0E9;
+  border-radius: 5px;
   border: medium none;
   color: #B2B2B2;
   font-family: 'roboto';
@@ -674,7 +683,7 @@ ul.sub-menu {
 .left-sidebar h2:after, h2.title:after{
 	content: " ";
 	position: absolute;
-	border: 1px solid #f5f5f5;
+	border: 1px solid #FE980F;
 	bottom:8px;
 	left: 0;
 	width: 100%;
